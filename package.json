@@ -6,7 +6,10 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "run:daily": "node src/jobs/runDailyJobCli.js"
+    "run:daily": "node src/jobs/runDailyJobCli.js",
+    "growatt:test": "node src/growatt/smokeTestCli.js",
+    "plants:init": "node src/jobs/initPlantsCli.js"
+
   },
   "dependencies": {
     "axios": "^1.7.7",
